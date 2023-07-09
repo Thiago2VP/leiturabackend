@@ -7,7 +7,7 @@ import booksRoutes from './routes/books.js';
 
 dotenv.config();
 
-const whiteList = [process.env.FRONT_URL];
+const whiteList = ["http://localhost:3003"];
 
 const corsOptions = {
   origin: function (origin, callback) {
